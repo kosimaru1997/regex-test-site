@@ -1,0 +1,62 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrap": "on",
+  "editor.fontSize": 14,
+  "cSpell.userWords": [
+      "mediascreeen"
+  ],
+  "editor.tabSize": 2,
+  "editor.mouseWheelZoom": true,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.letterSpacing": 4,
+  "terminal.integrated.tabs.enabled": true,
+  "cSpell.language": "en,en-US",
+  "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+      "default": "right",
+      "jupyter-notebook": "left"
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "problems.showCurrentInStatus": true,
+  "output.smartScroll.enabled": false,
+  "debug.console.lineHeight":0,
+  "terminal.integrated.lineHeight": 1,
+  "workbench.startupEditor": "none",
+  "editor.detectIndentation": false,
+
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+    },
+    "editor.formatOnSave": false,
+    "eslint.packageManager": "yarn",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[graphql]": {
+  "editor.formatOnSave": true
+  },
+  "[javascript]": {
+  "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+  "editor.formatOnSave": true
+  },
+  "[json]": {
+  "editor.formatOnSave": true
+  },
+  "[typescript]": {
+  "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+  "editor.formatOnSave": true
+  }
+
+}
