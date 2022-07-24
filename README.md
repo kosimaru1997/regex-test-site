@@ -9,12 +9,17 @@ $ yarn start
 
 ## installed
 
+### Typesync
+- https://www.npmjs.com/package/typesync
+
 ### ESLint
 - https://www.npmjs.com/package/eslint-plugin-jsx-a11y
 - https://www.npmjs.com/package/eslint-plugin-react-hooks
 - https://www.npmjs.com/package/@typescript-eslint/parser
 - https://www.npmjs.com/package/eslint-plugin-prefer-arrow
-- prettier:  https://github.com/prettier/eslint-config-prettier
+
+### prettier
+- https://github.com/prettier/eslint-config-prettier
 
 ### StyleLint
 
