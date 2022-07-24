@@ -3,11 +3,7 @@
   "editor.renderWhitespace": "boundary",
   "editor.wordWrap": "on",
   "editor.fontSize": 14,
-  "cSpell.userWords": [
-      "mediascreeen"
-  ],
   "editor.tabSize": 2,
-  "editor.mouseWheelZoom": true,
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.letterSpacing": 4,
   "terminal.integrated.tabs.enabled": true,
