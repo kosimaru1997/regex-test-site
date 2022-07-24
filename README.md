@@ -25,3 +25,7 @@ $ yarn start
 ### simple git hooks(manage script during git commit)
 - https://github.com/toplenboren/simple-git-hooks
 - https://github.com/okonet/lint-staged
+
+## My VSCode setting
+
+https://github.com/kosimaru1997/my-react-format/blob/main/.vscode/setting.json
