@@ -16,13 +16,12 @@ $ yarn start
 - https://www.npmjs.com/package/eslint-plugin-prefer-arrow
 - prettier:  https://github.com/prettier/eslint-config-prettier
 
-## StyleLint
+### StyleLint
 
 - https://www.npmjs.com/package/stylelint-order
 - https://www.npmjs.com/package/stylelint-config-recess-order
 - https://www.npmjs.com/package/stylelint-config-standard
 
-## simple git hooks(manage script with git commit)
+### simple git hooks(manage script with git commit)
 - https://github.com/toplenboren/simple-git-hooks
 - https://github.com/okonet/lint-staged
-
