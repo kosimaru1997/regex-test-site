@@ -1,15 +1,13 @@
 import styled from '@emotion/styled';
 import { FC } from 'react';
-import { NotLoggedInHeader } from '../components/templates/header/notLoggedInHeader';
 
 const Main = styled('div')(() => ({
   textAlign: 'center',
   margin: '55px 15px',
 }));
 
-const Top: FC = () => (
+export const Top: FC = () => (
   <main>
-    <NotLoggedInHeader />
     <Main>
       <h1>Regex-Test-Site</h1>
       <p>
@@ -20,5 +18,3 @@ const Top: FC = () => (
     </Main>
   </main>
 );
-
-export default Top;
