@@ -9,7 +9,6 @@ export const axiosInterceptor = () => {
     (config) => {
       const configDump = config;
       configDump.baseURL = process.env.REACT_APP_SERVER_BASE_URL;
-      console.log(process.env.REACT_APP_SERVER_BASE_URL);
       // configDump.headers = {
       //   Authorization: `Bearer ${accessToken}`,
       // };
