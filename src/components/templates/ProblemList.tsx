@@ -1,12 +1,9 @@
-import CameraAltIcon from '@mui/icons-material/CameraAlt';
-import DeleteIcon from '@mui/icons-material/Delete';
 import {
   Button,
   Card,
   CardActionArea,
   CardActions,
   CardContent,
-  IconButton,
   styled,
   Typography,
 } from '@mui/material';
@@ -33,7 +30,7 @@ export const ProblemList = (): ReactElement => {
 
   return (
     <>
-      <SearchResult>件</SearchResult>
+      <SearchResult>{problems?.length}件</SearchResult>
       {problems ? (
         <CardListStyle>
           {problems.map((problem) => (
@@ -95,21 +92,6 @@ export const ProblemList = (): ReactElement => {
                     <span style={{ fontSize: '16px' }}>詳細</span>
                   </Button>
                 </Link>
-                <Link
-                  to={`/problems/${problem.id}/edit`}
-                  style={{ marginRight: '10px' }}
-                >
-                  <Button size="small" variant="outlined" color="success">
-                    <span style={{ fontSize: '16px' }}>編集</span>
-                  </Button>
-                </Link>
-                <Link to={`/problems/${problem.id}/images`}>
-                  <CameraAltIcon color="primary" />
-                </Link>
-
-                <IconButton aria-label="delete" sx={{ ml: 'auto' }}>
-                  <DeleteIcon />
-                </IconButton>
               </CardActions>
             </Card>
           ))}
