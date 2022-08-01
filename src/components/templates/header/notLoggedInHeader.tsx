@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import { FC } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { Container, IconButton, Menu, MenuItem } from '@mui/material';
-import { useHeader } from './useHeader';
+import { useHeader } from '../../hooks/header/useHeader';
 
 const HeaderSpace = styled('div')(() => ({
   marginBottom: '70px',

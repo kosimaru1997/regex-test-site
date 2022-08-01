@@ -4,6 +4,7 @@ import './App.css';
 import { axiosInterceptor } from './axsiosInterceptor';
 import { NotLoggedInHeader } from './components/templates/header/notLoggedInHeader';
 import { ProblemIndex } from './routes/problem/ProblemIndex';
+import { ProblemShow } from './routes/problem/ProblemShow';
 import { Top } from './routes/Top';
 
 const App: FC = () => {
@@ -15,6 +16,7 @@ const App: FC = () => {
       <Routes>
         <Route path="/" element={<Top />} />
         <Route path="/problems" element={<ProblemIndex />} />
+        <Route path="/problems/:id" element={<ProblemShow />} />
       </Routes>
     </>
   );
