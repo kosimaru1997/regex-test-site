@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
-import useProblemList from '../molecules/useProblemList';
+import { useProblemList } from '../hooks/useProblemList';
 
 const CardListStyle = styled('div')(() => ({
   display: 'flex',

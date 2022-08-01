@@ -3,7 +3,7 @@ import { FC } from 'react';
 
 const Main = styled('div')(() => ({
   textAlign: 'center',
-  margin: '55px 15px',
+  padding: '55px 15px',
 }));
 
 export const Top: FC = () => (

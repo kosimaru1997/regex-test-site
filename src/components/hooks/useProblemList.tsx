@@ -1,9 +1,9 @@
 import { useQuery } from '@tanstack/react-query';
 import { useSearchParams } from 'react-router-dom';
-import { ProblemType } from '../../model/problem';
 import { findAllProblems } from '../atom/findAllProblems';
+import { ProblemType } from '../../model/problem';
 
-const useProblemList = (): ProblemType[] | undefined => {
+export const useProblemList = (): ProblemType[] | undefined => {
   const [getQuery] = useSearchParams();
   const keyword = getQuery.get('search');
 
@@ -14,5 +14,3 @@ const useProblemList = (): ProblemType[] | undefined => {
 
   return allProblems;
 };
-
-export default useProblemList;

@@ -11,3 +11,24 @@ a {
 .white {
   color: white;
 }
+
+.lime {
+  color: lime;
+}
+
+.red {
+  color: red;
+}
+
+.back-color-green {
+  background-color: #d3fdc0;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ok-title {
+  margin-top: '20px';
+  border-bottom: 'solid 2px grey';
+}
